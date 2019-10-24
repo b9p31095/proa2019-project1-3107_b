@@ -1,6 +1,13 @@
-/* ページ全体の背景色などを設定 */
 main {
-	background: #efffff;
+	background: ;
+}
+
+h1{
+	color:  white;
+	background-color: blue;
+}
+div.container{
+	background-color: yellow;
 }
 
 /* ページの見出し領域の背景色，画像などを設定（id属性で設定） */
@@ -34,4 +41,3 @@ main {
 	width: 340px;
 	height: 240px;
 }
-
