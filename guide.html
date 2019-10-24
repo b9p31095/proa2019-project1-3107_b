@@ -24,20 +24,26 @@
 	<!-- ページ上部に常時表示される部分にBootstrapのNavbarというコンポーネント（部品）を表示 -->
   <header>
   <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-    <a class="navbar-brand" href="#">詳細1</a>
+    <a class="navbar-brand" href="home.html">ホーム</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarCollapse">
       <ul class="navbar-nav mr-auto">
         <li class="nav-item active">
-              <a class="nav-link" href="#">フロントページ<span class="sr-only">(current)</span></a> <!-- hrefのリンク先は各自で修正すること -->
+              <a class="nav-link" href="guide.html">茅ヶ崎総合体育館<span class="sr-only">(current)</span></a> <!-- hrefのリンク先は各自で修正すること -->
         </li>
         <li class="nav-item">
-          <a class="nav-link disabled" href="#">詳細1</a><!-- hrefのリンク先は各自で修正すること -->
+          <a class="nav-link disabled" href="shousai1.html">トレーニング室</a><!-- hrefのリンク先は各自で修正すること -->
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">詳細2</a><!-- hrefのリンク先は各自で修正すること -->
+          <a class="nav-link" href="shousai2.html">茅ヶ崎屋内温水プール</a><!-- hrefのリンク先は各自で修正すること -->
+        </li>
+	<li class="nav-item">
+          <a class="nav-link" href="shousai3.html">トレーニング室</a><!-- hrefのリンク先は各自で修正すること -->
+        </li>
+	<li class="nav-item">
+          <a class="nav-link" href="shousai4.html">サザンビーチ</a><!-- hrefのリンク先は各自で修正すること -->
         </li>
         <!-- ここに項目<li>～</li>を増やす -->
     </ul>
@@ -54,8 +60,8 @@
 	<!-- ページの見出し -->
 	<section class="jumbotron text-center my-5 mx-5" id="#bg-head">
 	 	<div class="container">
-  		<h1 class="jumbotron-heading">若さとスポーツを</h1>
-			<p>茅ヶ崎駅の周辺にある運動場を紹介します。若い人から高齢の方までを対象として紹介していきます．</p>
+  		<h1 class="jumbotron-heading">茅ヶ崎総合体育館</h1>
+			<p>茅ヶ崎駅の近くにある茅ヶ崎総合体育館を紹介します。若い人から高齢の方までを対象として紹介していきます．</p>
 		</div>
   </section>
 
@@ -64,15 +70,18 @@
         <h2 class="pl-1 bg-lightblue">若者から高齢者の茅ヶ崎周辺に住んでいる地域の方
             <!-- <span class="text-muted">It'll blow your mind.</span> -->
         </h2>
-        <p id="abstract" class="lead">概要説明（施設や場所の紹介文）</p>
+        <p id="abstract" class="lead">茅ヶ崎総合体育館は茅ヶ崎駅から歩いて約10分で茅ヶ崎市民の人たちが安全に利用できるように設備されています。中にはアリーナがあり、そこでスポーツの練習ができたり、大会があったりします。２階にはトレーニング室があり、様々な器具でトレーニングが行えます。</p>
 				<p id="detail"></p>
+　　　<th><a href="shousai1.html">トレーニング室（総合体育館）についてはこちら</a></th>
       </div>
       <div class="col-md-5">
-        <img id="thumnail_img" class="img-fluid mx-auto box-shadow" src="./photos/thumnail_sample_300_thum.jpg" alt="画像の代替テキスト">
+        <img id="thumnail_img" class="img-fluid mx-auto box-shadow" src="taiikukan.jpeg" alt="画像の代替テキスト">
       </div>
 
  			<div class="img-fluid m-5 border-dashed box-shadow">
-				<h3 class="pl-3">追加の画像：</h3>
+				<h3 class="pl-3">館内：</h3>
+				<img src="aaa.jpeg">
+				<img src="sougoutaiikukan.jpeg">
  				<!--（注：LightBox2のファイルがコピーされていなければ，別ページが開く，という動作になる．）-->
 		 		<div id="image_list"></div>
 
@@ -86,8 +95,9 @@
 				</div>
 
 		  	<!-- 地図の表示(JavaScript) -->
-				<h3 class="pl-3">場所：</h3>
+				<h3 class="pl-3">場所: </h3>
       	<div id="map_here" class="col-5 m-5 mb-5">
+		<img src="mapp.png">
       	</div>
 			</div>
 		</div>
